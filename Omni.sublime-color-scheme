@@ -14,8 +14,7 @@
     "dark_purple": "#7159C1",
     "light_purple": "#988bc7",
     "red": "#E96379",
-    "yellow": "#E7DE79",
-    "red": "#E96379"
+    "yellow": "#E7DE79"
   },
   "globals": {
     "background": "var(background)",
@@ -33,7 +32,7 @@
     "brackets_foreground": "var(foreground)",
     "bracket_contents_options": "underline",
     "bracket_contents_foreground": "color(var(foreground) alpha(0.8))",
-    "tags_foreground": "var(foreground)",
+    "tags_foreground": "var(foreground)"
   },
   "rules": [
     {
@@ -362,23 +361,23 @@
       "foreground": "var(purple)"
     },
     {
-      "scope":"source meta.function-call.method variable.function",
+      "scope": "source meta.function-call.method variable.function",
       "foreground": "var(green)"
     },
     {
-      "scope":"meta.interpolation -variable.other.readwrite",
+      "scope": "meta.interpolation -variable.other.readwrite",
       "foreground": "var(pink)"
     },
     {
-      "scope":"source meta.function meta.block meta.function-call variable.function",
+      "scope": "source meta.function meta.block meta.function-call variable.function",
       "foreground": "var(green)"
     },
     {
-      "scope":"text.html.markdown meta.paragraph.markdown meta.code-fence.definition.begin.text.markdown-gfm, text.html.markdown meta.paragraph.markdown meta.code-fence.definition.end.text.markdown-gfm",
+      "scope": "text.html.markdown meta.paragraph.markdown meta.code-fence.definition.begin.text.markdown-gfm, text.html.markdown meta.paragraph.markdown meta.code-fence.definition.end.text.markdown-gfm",
       "foreground": "var(green)"
     },
     {
-      "scope":"text.html.markdown meta.paragraph.markdown markup.raw.code-fence.markdown-gfm",
+      "scope": "text.html.markdown meta.paragraph.markdown markup.raw.code-fence.markdown-gfm",
       "foreground": "var(foreground)"
     },
     {
@@ -395,7 +394,7 @@
     },
     {
       "scope": "source.json meta.mapping.value.json meta.mapping.json punctuation.separator.mapping.key-value.json",
-      "foreground": "var(pink)",
+      "foreground": "var(pink)"
     },
     {
       "scope": "source.json constant.numeric.value.json",
